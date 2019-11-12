@@ -1,0 +1,55 @@
+*{padding: 0;margin: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{width: 100%;}
+.wrap{padding-top: 50px;}
+/*logo样式*/
+nav .container-fluid{max-width:960px;margin: 0 auto;}
+.dropdown .dropdown-menu li a{height: 38px;line-height: 38px;border-bottom: 1px solid #CCCCCC;}
+.dropdown .dropdown-menu{padding: 0;}
+.logo-p{padding:0;}
+.box-logo{width: 140px;background:-webkit-linear-gradient(left,#1d1d50,#3175b7);}
+.box-logo span{display: block;color: #fff;}
+.logo1{background: #fff;padding: 25px 15px;border-bottom-right-radius:30px;}
+.logo2{line-height: 50px;padding-left: 10px;background: -webkit-linear-gradient(left,#1c368c,#3177b9);overflow:hidden;height:0px;}
+.logo3{height: 50px;padding-left: 10px;line-height: 50px;}
+.logo-m{width: 100px;margin: 12px 0 0 20px;}
+/*动态主体*/
+/**标签页面板*/*/
+.lefts{padding: 10px;}
+.lefts .nav a{font-size: 18px;color: #022573;font-weight: bold;}
+.lefts .tab-pane{padding: 10px;border: 1px solid #CCCCCC;border-top: none;}
+.lefts .tab-pane dl{overflow: hidden;border-bottom: 1px dashed #CCCCCC;padding-bottom: 10px;}
+.lefts .tab-pane dt{max-width: 200px;float: left;margin-right: 15px;}
+.lefts .tab-pane .more a{float: right;background: #15A9D4;color: #FFF;font-size: 12px;}
+.lefts .tab-pane .more a:hover{color:#000000}
+.lefts h2{font-size: 16px;max-width: calc(100% - 20px);white-space: nowrap;overflow: hidden;text-overflow:ellipsis ;
+margin: 0 0 10px;}
+.lefts p{line-height: 1.7em;color: #5E5E5E;}
+.math ul li{background: #EFEFEF;margin: 0 5px;}
+.math .active{background: #022573;}
+.math .active a{color: #fff;}
+/*右边*/
+.rights h2{color: #022573;font-size: 18px;font-weight: bold;}
+.rights .listnews {width: 300px;overflow: hidden;box-shadow: 2px 2px 2px #ccc;padding: 10px;}
+.rights .listnews img{width: 100px;float: left;margin-right: 10px;}
+.rights .listnews h2{font-weight: normal; font-size: 16px;max-width: calc(100% - 20px);white-space: nowrap;overflow: hidden;text-overflow:ellipsis ;margin: 0 0 10px 10px;}
+.rights .more a{float: right;background: #15A9D4;width: 100px; padding: 5px 0;color: #fff;font-size: 12px;}
+.rights .more a:hover{color:#000000}
+/*地图*/
+.map{background: #122B40;margin-top: 20px;}
+.map .row{max-width:960px;margin: 0 auto;}
+.map .row h3{color: #FFF;}
+.map .row a{color: #FFF;}
+/*最后的尾部*/
+.footer{background: -webkit-linear-gradient(top,#222B8E,#3A6595);}
+.footer .row{max-width:960px;margin: 0 auto;}
+.footer .row p{padding-top: 30px;margin-bottom: 0;}
+.footer .row p a{color:deepskyblue;}
+.footer span img{width: 30px;}
+.footer h3 img{width: 100px;border-bottom-left-radius: 70px;border-bottom-right-radius: 70px;}
+.footer button{border-radius: 5px;border: 1px solid #fff;font-size:12px;background: #fff;height:30px;padding: 0 10px;}
+.footer .right{margin-top: 30px;}
+.footer .right .dropdown-menu li{padding: 5px 10px;}
+.footer .end{color: #fff;text-align: center;padding-top: 30px;}

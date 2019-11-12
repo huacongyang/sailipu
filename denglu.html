@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			body{background:#E7F1FF;}
+			.lefts img{border-radius: 50%;}
+			.bottom .container{margin-top:100px;}
+			.rights{box-shadow: 3px 3px 5px #999999;width:400px;}
+			header,main,footer{padding: 10px;}
+			header{background: #337AB7;border-top-left-radius: 5px;border-top-right-radius:5px;}
+			h3{margin: 0;padding: 0;color: #fff}
+			main{border: 1px solid #c1d7ea;}
+			footer{border: 1px solid #C1D7EA;border-bottom-left-radius: 5px;border-top:none;text-align: center;}
+			p{margin-top: 10px;text-align: center;color: #000000;font-size: 12px;}
+			.rights-img img{width:600px;border-radius: 50%;margin-bottom: 10px;}
+			.rights-img{text-align: center;}
+			.m-img {text-align: center;width:420px;padding-left: 0;}
+			.m-img img{width: 100%;}
+			.navbar .container img{width: 100px;padding:4px;margin-left:40px;}
+			.navbar {height:50px;box-shadow: 2px 2px 2px #CCCCCC;background: #fff;}
+			.navbar .info{position: absolute;right:400px;top:14px;}
+			.info span{margin-right: 50px;padding: 0px 6px;font-family: "微软雅黑";}
+			.info a{padding: 0 5px;color:  #999999;}
+			.info a:hover{text-decoration:none;color:#CCCCCC;}
+			#result{float: right;color: red;}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+				$("#zhanghao").keyup(function(){
+					if (isphone($(this).val())) {
+						$("#result").text("格式正确").css("color","blue")
+					}
+					else
+					$("#result").text("格式错误").css("color","red")
+				})
+			})
+			function isphone(phone)
+			{
+				var pattern=/^1[34578]\d{9}$/
+				return pattern.test(phone)
+			}
+		</script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		   <div class="container">
+		   	 	<div class="navbar-header">
+		   	 		<a href="projectfirst.html"><img src="img/img/storeLogo.jpg"/></a>
+		   	 		<div class="info hidden-xs hidden-sm">
+		   	 			<span>买东西就来赛利普  你值得拥有....</span>
+		   	 		<a href="#">免费注册</a>
+		   	 		<a href="#">招商加盟</a>
+		   	 		</div>
+		   	 			</div>
+		   	</div>
+          </nav>
+		   	<div class="bottom">
+		<div class="container">
+		<div class="col-lg-6 col-md-6 hidden-sm hidden-xs lefts">
+				<img src="img/img/LM-MyPhilips-Banner.jpg"/>
+			</div>
+			<div class="col-lg-6 col-md-6 hidden-12 hidden-12 rights">
+				<div class="wrap">
+			<header>
+				<h3>用户登录</h3>
+			</header>
+			<main>
+				<div class="form-group">
+					<label><span class="glyphicon glyphicon-user"></span>账号</label><span id="result"></span>
+					<input type="text" class="form-control"placeholder="请输入手机号" id="zhanghao" maxlength="11" />
+				</div>
+				<div class="form-group">
+					<label><span class="glyphicon glyphicon-lock"></span>密码</label>
+					<input type="password" class="form-control" placeholder="请输入密码"/>
+				</div>
+			</main>
+			<footer>
+				<button class="btn btn-primary">确认登陆</button>
+				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">注册账户</button>
+			</footer>
+		  <p>? Koninklijke Shilips N.V.2004 - 2017。保留所有权利。</p>
+		</div>
+			</div>
+			<div class="rights-img hidden-xs hidden-md">
+			<img src="img/img/14887662188453706-n.jpg"/>
+		</div>
+		<div class="hidden-lg hidden-md col-sm-12 col-xs-12 m-img">
+			<img src="img/img/14887662188453706-n.jpg"/>
+		</div>
+		</div>
+		</div>
+		<div class="modal fade" id="myModal" data-backdrop="false">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title" id="mylable">用户注册</h4>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label><span class="glyphicon glyphicon-user"></span>账户</label>
+							<input type="text" name="" id="" value="" class="form-control"placeholder="请输入账号"/>
+						</div>
+						<div class="form-group">
+							<label><span class="glyphicon glyphicon-lock"></span>密码</label>
+							<input type="password" name="" id="" value="" class="form-control"placeholder="请输入密码"/>
+						</div>
+						<div class="form-group">
+							<label><span class="glyphicon glyphicon-lock"></span>重复密码</label>
+							<input type="password" name="" id="" value="" class="form-control"placeholder="请输入密码"/>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal">返回登陆</button>
+						<button class="btn btn-primary">注册并登陆</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		   	</div>
+	</body>
+</html>

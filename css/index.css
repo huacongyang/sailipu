@@ -1,0 +1,88 @@
+*{padding: 0;margin: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{width: 100%;}
+.wrap{padding-top: 50px;}
+/*logo样式*/
+
+nav .container-fluid{max-width:960px;margin: 0 auto;height:10px;}
+.dropdown .dropdown-menu li a{height: 38px;line-height: 38px;border-bottom: 1px solid #CCCCCC;}
+.dropdown .dropdown-menu{padding: 0;}
+.logo-p{padding:0;}
+.box-logo{width: 140px;background:-webkit-linear-gradient(left,#1d1d50,#3175b7);}
+.box-logo span{display: block;color: #fff;}
+.logo1{background: #fff;padding: 25px 15px;border-bottom-right-radius:30px;}
+.logo2{line-height: 50px;padding-left: 10px;background: -webkit-linear-gradient(left,#1c368c,#3177b9);overflow:hidden;height:0px;}
+.logo3{height: 50px;padding-left: 10px;line-height: 50px;}
+.logo-m{width: 100px;margin: 12px 0 0 20px};
+/*background: -webkit-linear-gradient();background: -webkit-radial-gradient();*/
+/*实验？*/
+.btns{position: relative;top:0px;right:0px;}
+.btns .zhuce{border: none;padding:7px 20px;background:dodgerblue;border-radius: 25px;color: #fff;font-size: 14px;}
+.btns .zhuce:hover{background:#14A4FE;}
+.btns .denglu{border: 1px solid #DCDCDC;padding:7px 20px;background: ##fff;border-radius: 25px;color: #000;font-size: 14px;margin-left: 10px;}
+.btns .denglu:hover{background: #EFEFEF;border: 1px solid #C0C0C0;}
+/*背景图*/
+.banner1-p{background: url(../img/img/ultrasound-l.jpg)no-repeat;padding-top:6%;padding-bottom: 10%;min-width: 960px;margin: 0 auto;background-size: cover;}
+.banner1-text{max-width:960px;margin: 0 auto;}
+.banner1-text h3{font-weight: bold;font-size: 38px;}
+.banner1-text p{width: 360px;line-height: 1.5;font-size: 16px;}
+.banner1-text a{display: block;border-radius: 5px;background: #186d85;width: 120px;padding: 10px 0;color: #fff;text-align: center;margin-bottom: 10px;}
+/*移动端1*/
+.banner1-m .banner1-text{padding-left: 10px;}
+.banner1-m .banner1-text h3{font-size: 18px;}
+.banner1-m .banner1-text p{font-size: 14px;width: 320px;}
+.banner2-p{background: url(../img/img/li-l.jpg)no-repeat;padding-top:6%;padding-bottom: 6%;min-width: 960px;margin: 0 auto;background-size: cover;}
+.banner2-text{max-width:960px;margin: 0 auto;padding: 0;}
+.banner2-text h3{font-weight: bold;font-size: 38px;color: #fff;}
+.banner2-text p{width: 360px;line-height: 1.5;font-size: 16px;color: #fff;}
+.banner2-text a{display: block;border-radius: 5px;width: 120px;padding: 10px 0;color: #fff;text-align: center;background: rgba(9,177,177,0.8);}
+/*移动端2*/
+.banner2-m .banner2-text{padding-left: 10px;}
+.banner2-m .banner2-text h3{font-size: 18px;color: #000000;}
+.banner2-m .banner2-text p{font-size: 14px;width: 320px;color: #000000;}
+.banner2-m .banner2-text a{margin-bottom: 10px;background: #186d85;}
+.banner3-p{background: url(../img/img/philips-watch-left-l.jpg)no-repeat;padding-top:6%;padding-bottom: 8%;min-width: 960px;margin: 0 auto;background-size: cover;overflow: hidden;}
+.banner3-p .banner3-text{max-width:960px;margin: 0 auto;text-align: right;}
+.banner3-p .banner3-text h3{font-weight: bold;font-size: 38px;color: #fff;text-shadow: 2px 2px 2px #CCCCCC;}
+.banner3-p .banner3-text a{display: block;border-radius: 5px;background: #186d85;width: 120px;padding: 10px 0;color: #fff;text-align: center;margin-bottom: 10px;float: right;margin-top: 20px;}
+/*移动端3*/
+.banner3-m .banner3-text{padding-left: 10px;}
+.banner3-m .banner3-text h3{font-size: 18px;color: #000000;margin-top: 10px;}
+.banner3-text a{display: block;border-radius: 5px;background: #186d85;width: 120px;padding: 10px 0;color: #fff;text-align: center;margin-bottom: 10px;}
+/*<!--下面信息内容-->*/
+.reg{width: 100%;background: #EFEFEF;}
+.reg .container-fluid{max-width:960px;margin: 0 auto;}
+.reg ul li span{color: #50AD0A;line-height: 1.7;}
+.reg .form-inline span{display: block;margin: 5px 0;}
+.reg input{margin-bottom: 5px;}
+.reg input[type="button"]{display: block;}
+.club{padding: 0;}
+.club-box{background: url(../img/img/LM-MyPhilips-Banner.jpg)no-repeat;padding-top: 10%;padding-bottom: 40%;background-size: 100%;}
+.club-box h2,.club-box h3{padding: 5px 10px;}
+/*搜索内容*/
+.search{background: #15A9D4;}
+.search .row{max-width:960px;margin: 0 auto;}
+.search .row h3{font-size: 30px;}
+.search .row h4{font-size: 24px;padding-top:10px;}
+.search .row .row1{width: 430px;position: relative;}
+.search .row .row1 input{width:100%;padding: 5px;}
+.search .row .row1 span{position: absolute;right: 5px;top: 125px;}
+.search .row .row1 p{padding-top: 5px;}
+/*地图*/
+.maps {background: #122B40;}
+.maps .row{max-width:960px;margin: 0 auto;}
+.maps .row h3{color: #FFF;}
+.maps .row a{color: #FFF;}
+/*最后的尾部*/
+.footer{background: -webkit-linear-gradient(top,#222B8E,#3A6595);}
+.footer .row{max-width:960px;margin: 0 auto;}
+.footer .row p{padding-top: 30px;margin-bottom: 0;}
+.footer .row p a{color:deepskyblue;}
+.footer span img{width: 30px;}
+.footer h3 img{width: 100px;border-bottom-left-radius: 70px;border-bottom-right-radius: 70px;}
+.footer button{border-radius: 5px;border: 1px solid #fff;font-size:12px;background: #fff;height:30px;padding: 0 10px;}
+.footer .right{margin-top: 30px;}
+.footer .right .dropdown-menu li{padding: 5px 10px;}
+.footer .end{color: #fff;text-align: center;padding-top: 30px;}

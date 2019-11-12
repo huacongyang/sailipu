@@ -1,0 +1,58 @@
+*{padding: 0;margin: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{width: 100%;}
+.wrap{padding-top: 50px;}
+body{overflow-x: hidden;}
+/*logo样式*/
+nav .container-fluid{max-width:960px;margin: 0 auto;}
+.dropdown .dropdown-menu li a{height: 38px;line-height: 38px;border-bottom: 1px solid #CCCCCC;}
+.dropdown .dropdown-menu{padding: 0;}
+.logo-p{padding:0;}
+.box-logo{width: 140px;background:-webkit-linear-gradient(left,#1d1d50,#3175b7);}
+.box-logo span{display: block;color: #fff;}
+.logo1{background: #fff;padding: 25px 15px;border-bottom-right-radius:30px;}
+.logo2{line-height: 50px;padding-left: 10px;background: -webkit-linear-gradient(left,#1c368c,#3177b9);overflow:hidden;height:0px;}
+.logo3{height: 50px;padding-left: 10px;line-height: 50px;}
+.logo-m{width: 100px;margin: 12px 0 0 20px;}
+.share{float: right;}
+/*banner*/
+.banner{background: url(../img/img/ultrasound-l.jpg)no-repeat;background-size: cover;}
+.banner .box-ban{max-width: 960px;margin: 0 auto;padding: 5% 0;}
+/*企业动态*/
+.d-content{max-width: 960px;margin: 0 auto;}
+.d-content h2{font-weight: normal;font-size: 16px;margin-left: 10px;}
+.d-content h1{font-weight: normal;font-size: 18px;margin-left: 10px;text-align: center;}
+.d-content .bottom{border-bottom: 1px solid #CCCCCC;overflow: hidden;}
+.d-content .bottom h2{float: left;margin-top: 0;}
+.d-content .img-box{text-align: center;margin-top: 20px;}
+.d-content .img-box img{width: 360px;margin-bottom: 10px;}
+.d-content .img-box p{text-align: left;margin-left:5px;}
+.d-content .page span{display: block;line-height: 1.7;}
+.d-content .page span:last-child{background: #15A9D4;width: 120px;text-align: center;padding: 5px 0;margin-top: 5px;}
+.d-content .page span:last-child a{color: #FFFFFF;}
+/*地图*/
+.map{background: #122B40;margin-top:10px;}
+.map .row{max-width:960px;margin: 0 auto;}
+.map .row h3{color: #FFF;}
+.map .row a{color: #FFF;}
+/*最后的尾部*/
+.footer{background: -webkit-linear-gradient(top,#222B8E,#3A6595);}
+.footer .row{max-width:960px;margin: 0 auto;}
+.footer .row p{padding-top: 30px;margin-bottom: 0;}
+.footer .row p a{color:deepskyblue;}
+.footer span img{width: 30px;}
+.footer h3 img{width: 100px;border-bottom-left-radius: 70px;border-bottom-right-radius: 70px;}
+.footer button{border-radius: 5px;border: 1px solid #fff;font-size:12px;background: #fff;height:30px;padding: 0 10px;}
+.footer .right{margin-top: 30px;}
+.footer .right .dropdown-menu li{padding: 5px 10px;}
+.footer .end{color: #fff;text-align: center;padding-top: 30px;}
+/*回到顶部*/
+.back-top{width: 50px;height: 50px;background: rgba(128,128,128,.6);border-radius: 5px;text-align: center;position: fixed;right: 5px;bottom: 10px;}
+.back-top i{font-size: 28px;color: rgba(255,255,255,.6);line-height: 50px;}
+/*联系我们*/                   
+.side{width:35px;position: absolute;right:-35px;top:60%;background: #fff;}
+.side p{width:16px;position: absolute;right: 35px;background: deepskyblue;padding: 10px 26px 10px 12px;border-radius: 5px;color: #fff;}
+.side .sys{width: 100px;position: absolute;right:35px;top:0px;display: none;border: 1px solid #CCCCCC;}
+.side ul .hid:hover .sys{display: block;}

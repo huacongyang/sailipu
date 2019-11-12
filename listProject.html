@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻页</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Projectfirst.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<div class="wrap">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		   <div class="container-fluid">
+		   	<div class="navbar-header">
+		   		 <button class="navbar-toggle" data-toggle="collapse" data-target="#mycollapse">
+		         <span class="icon-bar"></span>
+		   	     <span class="icon-bar"></span>
+		   	     <span class="icon-bar"></span>
+		   	     </button>
+		   	     <!--头部logo-->
+			    <div class="logo-p navbar-brand hidden-xs hidden-sm">
+			    	<div class="box-logo">
+			    		<span class="logo1"><a href="projectfirst.html"><img src="img/img/Philips_brand_logo_all_BR.png"/></a></span>
+			    		<span class="logo2">产品</span>
+					    <span class="logo3">详情</span>
+			    	</div>
+				</div>
+				<div class="logo-m hidden-lg hidden-md">
+					<span><a href="projectfirst.html"><img src="img/img/Philips_brand_logo_all_BR.png"/></a></span>
+				</div>
+			</div>
+			   <!--导航栏信息-->
+			    <div class="collapse navbar-collapse" id="mycollapse">
+			    	<ul class="nav navbar-nav">
+			    		<li class="dropdown"><a href="#" data-toggle="dropdown">产品<span class="caret"></span> </a>
+			    			<ul class="dropdown-menu">
+			    				<li><a href="#">视听产品</a></li>
+			    				<li><a href="#">个人护理</a></li>
+			    				<li><a href="#">母婴护理</a></li>
+			    				<li><a href="#">厨房及家居</a></li>
+			    				<li><a href="#">照明</a></li>
+			    				<li><a href="#"> 健康</a></li>
+			    				<li><a href="#"> 汽车</a></li>
+			    				<li><a href="#">电脑产品、显示器和电话</a></li>
+			    				<li><a href="#">附件</a></li>
+			    			</ul>
+			    		</li>
+			    		<li><a href="#">在线商城 </a></li>
+			    		<li><a href="infoProject1.html">塞利普新闻 </a></li>
+			    		<li class="dropdown"><a href="#" data-toggle="dropdown">产品支持 <span class="caret"></span></a>
+			    			<ul class="dropdown-menu">
+			    				<li><a href="#">支持主页</a></li>
+			    				<li><a href="#">查找产品</a></li>
+			    				<li><a href="#">查找客服中心</a></li>
+			    				<li><a href="#">联系我们</a></li>
+			    				<li><a href="#">购买附件</a></li>
+			    			</ul>
+			    		</li>
+			    		<li><a href="#">特惠专区 </a></li>
+			    		<li><a href="#">塞利普俱乐部 </a></li>
+			    		<li class="dropdown"><a href="#" data-toggle="dropdown">关于塞利普 <span class="caret"></span> </a>
+			    			<ul class="dropdown-menu">
+			    				<li><a href="#">公司概况</a></li>
+			    				<li><a href="#">设计</a></li>
+			    				<li><a href="#"> 研发</a></li>
+			    				<li><a href="#">可持续发展</a></li>
+			    				<li><a href="#"> 新闻中心</a></li>
+			    				<li><a href="#"> 投资者关系</a></li>
+			    				<li><a href="#">招贤纳士 </a></li>
+			    			</ul>
+			    		</li>
+			    	</ul>
+			    </div>
+			</div>
+		</nav>
+		<!--轮播图-->
+		<div class="banner">
+				<div id="mycarousel" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/img/li-l.jpg"/>
+					</div>
+					<div class="item">
+						<img src="img/img/philips-watch-left-l.jpg"/>
+					</div>
+					<div class="item">
+						<img src="img/img/fliped_MyPhilips_Onehome_banner2000x700.jpg"/>
+					</div>
+				</div>
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#mycarousel" class="active"></li>
+					<li data-slide-to="1" data-target="#mycarousel"></li>
+					<li data-slide-to="2" data-target="#mycarousel"></li>
+				</ol>
+				<a class="left carousel-control" href="#mycarousel"  data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#mycarousel"  data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+		</div>
+		<!--动态信息-->
+		<!--标签页面板-->
+			<div class="container">
+				<div class="row">
+					<!--左边-->
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 lefts">
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<a href="#one" data-toggle="tab"><span class="glyphicon glyphicon-book"></span>企业动态</a>
+							</li>
+							<li>
+								<a href="#two" data-toggle="tab"><span class="glyphicon glyphicon-leaf"></span>行业动态</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="one">
+								<!--第一个-->
+								<dl>
+									<dt><img src="img/img/news_1.jpg"/></dt>
+									<dd>
+										<h2>塞利普官方网站上线了！</h2></dd>
+									<dd>
+										<p>2018年5月20日，赛利普官方网站正式上线</p>
+									</dd>
+									<dd>admin 2018/5/20</dd>
+									<div class="more">
+										<a href="#" class="btn">点击查看详情</a>
+									</div>
+								</dl>
+								<!--第二个-->
+								<dl>
+									<dt><img src="img/img/news_2.jpg"/></dt>
+									<dd>
+										<h2>塞利普官方网站上线了！</h2></dd>
+									<dd>
+										<p>2018年5月20日，赛利普官方网站正式上线</p>
+									</dd>
+									<dd>admin 2018/5/20</dd>
+									<div class="more">
+										<a href="3.html" class="btn">点击查看详情</a>
+									</div>
+								</dl>
+								<!--第三个-->
+								<dl>
+									<dt><img src="img/img/news_3.jpg"/></dt>
+									<dd>
+										<h2>塞利普官方网站上线了！</h2></dd>
+									<dd>
+										<p>2018年5月20日，赛利普官方网站正式上线</p>
+									</dd>
+									<dd>admin 2018/5/20</dd>
+									<div class="more">
+										<a href="#" class="btn">点击查看详情</a>
+									</div>
+								</dl>
+								<!--第四个-->
+								<dl>
+									<dt><img src="img/img/news_4.jpg"/></dt>
+									<dd>
+										<h2>塞利普官方网站上线了！</h2></dd>
+									<dd>
+										<p>2018年5月20日，赛利普官方网站正式上线</p>
+									</dd>
+									<dd>admin 2018/5/20</dd>
+									<div class="more">
+										<a href="#" class="btn">点击查看详情</a>
+									</div>
+								</dl>
+								<!--上下页内容-->
+								<div class="math">
+									<ul class="list-inline">
+										<li>
+											<a href="javascript:void(0)">上一页</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">1</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">2</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">3</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">4</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">5</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)">下一页</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="two">
+								<dl>
+									<dt><img src="img/img/news_1.jpg"/></dt>
+									<dd>
+										<h2>家电行业日报：季度家用电器和音响器材零售总...</h2></dd>
+									<dd>
+										<p>今日家电指数走势强与上证综指，其中黑电板块表现相对较好，仅下跌0.91%</p>
+									</dd>
+									<dd>admin 2018/5/20</dd>
+									<div class="more">
+								<a href="#" class="btn">点击查看详情</a>
+							</div>
+							</div>
+							</dl>
+						</div>
+					</div>
+					<!--右边-->
+					<div class="col-lg-4 col-md-4 hidden-sm hidden-xs rights">
+						<h2><i class="glyphicon glyphicon-fire"></i>推荐新闻</h2>
+						<dl class="listnews">
+							<dt><img src="img/img/news_2.jpg"/></dt>
+							<dd>
+								<h2>塞利普官方网站上线了！</h2></dd>
+							<dd>admin 2018/5/20</dd>
+							<div class="more">
+								<a href="#" class="btn">点击查看详情</a>
+							</div>
+						</dl>
+						<dl class="listnews">
+							<dt><img src="img/img/news_3.jpg"/></dt>
+							<dd>
+								<h2>塞利普官方网站上线了！</h2></dd>
+							<dd>admin 2018/5/20</dd>
+							<div class="more">
+								<a href="#" class="btn">点击查看详情</a>
+							</div>
+						</dl>
+						<dl class="listnews">
+							<dt><img src="img/img/news_4.jpg"/></dt>
+							<dd>
+								<h2>塞利普官方网站上线了！</h2></dd>
+							<dd>admin 2018/5/20</dd>
+							<div class="more">
+								<a href="#" class="btn">点击查看详情</a>
+							</div>
+						</dl>
+						<dl class="listnews">
+							<dt><img src="img/img/news_1.jpg"/></dt>
+							<dd>
+								<h2>塞利普官方网站上线了！</h2></dd>
+							<dd>admin 2018/5/20</dd>
+							<div class="more">
+								<a href="#" class="btn">点击查看详情</a>
+							</div>
+						</dl>
+					</div>
+				</div>
+			</div>
+	<!--	地图-->
+		<div class="map">
+			<div class="container">
+				<div class="row">
+				<div class="map-p col-lg-3 col-md-3">
+					<h3>消费类产品</h3>
+					<ul>
+						<li><a href="#">产品</a></li>
+						<li><a href="#">在线商城</a></li>
+						<li><a href="#">产品支持</a></li>
+						<li><a href="#">特惠专区</a></li>
+						<li><a href="#">活动快递</a></li>
+						<li><a href="#">塞利普俱乐部</a></li>
+					</ul>
+				</div>
+				<div class="map-p col-lg-3 col-md-3">
+					<h3>专业产品</h3>
+					<ul>
+						<li><a href="#">医疗科技</a></li>
+						<li><a href="#">照明</a></li>
+					</ul>
+				</div>
+				<div class="map-p col-lg-3 col-md-3">
+					<h3>关于塞利普</h3>
+					<ul>
+						<li><a href="#">公司概况</a></li>
+						<li><a href="#">设计</a></li>
+						<li><a href="#">研发</a></li>
+						<li><a href="#">可持续发展</a></li>
+						<li><a href="#">新闻中心</a></li>
+						<li><a href="#">投资者关系</a></li>
+						<li><a href="#">招贤纳士</a></li>
+						<li><a href="#">塞利普2016年报</a></li>
+					</ul>
+				</div>
+				<div class="map-p col-lg-3 col-md-3">
+					<h3>塞利普俱乐部</h3>
+					<ul>
+						<li><a href="#">登录</a></li>
+						<li><a href="#">创建账户</a></li>
+						<li><a href="#">注册产品</a></li>
+						<li><a href="#">连接至塞利普</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--最后的尾部-->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 left">
+					   <p><a href="#">链接自赛利普</a></p>
+					   <span><img src="img/img/weibo.png"/></span>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 center-block">
+					  <h3><img src="img/img/footlogo.png"/></h3>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 right">
+					 <div class="dropdown"><button href="#" data-toggle="dropdown">选择国家/语言 中国 - 中文 <span class="caret"></span></button>
+			    			<ul class="dropdown-menu">
+			    					<li><a href="">中国</a></li>
+			    				<li><a href="">法国</a></li>
+			    				<li><a href="">俄罗斯</a></li>
+			    			</ul>
+			    		</div>
+					</div>
+				</div>
+				<div class="end">
+						<p>投资者关系 | 招贤纳士 | 联系塞利普  | Shilips  | Cookie |  政策 产品安全 |  使用条款 |  站点地图  | 手机网站 |  沪ICP备09062110号 |  隐私权声明</p>
+						<em>? Koninklijke Shilips N.V.2004 - 2017。保留所有权利。</em>
+					</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
